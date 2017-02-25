@@ -24,11 +24,12 @@ public class ObjectOptions extends AppCompatActivity implements OnItemClick {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.object_list);
 
         getWindow().setBackgroundDrawableResource(R.drawable.back_one);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
