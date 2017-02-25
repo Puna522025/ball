@@ -172,11 +172,10 @@ public class MainActivity extends AppCompatActivity implements FlyingObject.Flyi
         mBackgroundImages.add(R.drawable.four);
         mBackgroundImages.add(R.drawable.five);
 
-        listObjects.add(R.drawable.balloon);
-        listObjects.add(R.drawable.aa);
-        listObjects.add(R.drawable.alien);
-        listObjects.add(R.drawable.football);
-        listObjects.add(R.drawable.tennis);
+
+
+
+
 
         listObjects.add(R.drawable.balloon);
         listObjects.add(R.drawable.aa);
@@ -218,6 +217,17 @@ public class MainActivity extends AppCompatActivity implements FlyingObject.Flyi
         listObjects.add(R.drawable.alien);
         listObjects.add(R.drawable.football);
         listObjects.add(R.drawable.tennis);
+        listObjects.add(R.drawable.balloon);
+        listObjects.add(R.drawable.aa);
+        listObjects.add(R.drawable.alien);
+        listObjects.add(R.drawable.football);
+        listObjects.add(R.drawable.tennis);
+        listObjects.add(R.drawable.football);
+        listObjects.add(R.drawable.tennis);
+        listObjects.add(R.drawable.balloon);
+        listObjects.add(R.drawable.aa);
+        listObjects.add(R.drawable.alien);
+        listObjects.add(R.drawable.football);
 
 
         ViewTreeObserver viewTreeObserver = mContentView.getViewTreeObserver();
